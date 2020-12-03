@@ -11,10 +11,6 @@ group = project.maven_group
 
 repositories {
     maven {
-        name = "Jitpack"
-        url "https://jitpack.io/"
-    }
-    maven {
         name = "Concerning"
         url "https://maven.concern.i.ng/"
     }

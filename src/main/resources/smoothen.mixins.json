@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.chocohead.smoothen.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"plugin": "com.chocohead.smoothen.SlotPlugin",
+	"mixins": [
+	],
+	"client": [
+		"BlockRendererMixin",
+		"BlockMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

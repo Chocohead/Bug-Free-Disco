@@ -1,33 +1,32 @@
 {
-  "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+	"schemaVersion": 1,
+	"id": "bfd",
+	"version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "Me!"
-  ],
-  "contact": {
-    "issues": "https://github.com/TextileMC/Textile-Example-Mod/issues",
-    "sources": "https://github.com/TextileMC/Textile-Example-Mod"
-  },
+	"name": "Bug Free Disco",
+	"description": "Smoothening the world to not look very Infdev",
+	"authors": [
+		"Chocohead",
+		"Notch"
+	],
+	"contact": {
+		"issues": "https://github.com/Chocohead/Bug-Free-Disco/issues",
+		"sources": "https://github.com/Chocohead/Bug-Free-Disco"
+	},
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+	"license": "MPLv2",
+	"icon": "assets/bfd/icon.png",
 
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.textilemc.examplemod.ExampleMod"
-    ]
-  },
-  "mixins": [
-    "modid.mixins.json"
-  ],
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+		]
+	},
+	"mixins": [
+		"smoothen.mixins.json"
+	],
 
-  "depends": {
-    "fabricloader": "*",
-    "minecraft": "20100618"
-  }
+	"depends": {
+		"minecraft": ["20100618", "0.31.20100618"]
+	}
 }
